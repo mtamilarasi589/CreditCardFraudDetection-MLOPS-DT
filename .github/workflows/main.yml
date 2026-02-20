@@ -46,7 +46,7 @@ jobs:
     # 6️⃣ Commit updated model
     - name: Commit Updated Model
       run: |
-        git config --global user.name "Tamilarasi"
+        git config --global user.name "mtamilarasi"
         git config --global user.email "mtamilarasi589@gmail.com"
         git add model.pkl retrain_log.txt
         git diff --cached --quiet || git commit -m "Auto retrained Decision Tree model"
